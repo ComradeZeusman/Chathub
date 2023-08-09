@@ -1,0 +1,61 @@
+
+    /* Table styles */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        background-color: black;
+    }
+
+    th, td {
+        border: 1px solid #ccc;
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    /* Button styles */
+    form {
+        display: inline-block;
+        margin: 4px;
+    }
+
+    input[type="submit"] {
+        padding: 6px 12px;
+        font-size: 14px;
+        border: none;
+        background-color: #4CAF50;
+        color: white;
+        cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+
+    input[type="submit"]:focus {
+        outline: none;
+    }
+
+    /* Message styles */
+    .message {
+        padding: 8px;
+        background-color: #f2f2f2;
+        border: 1px solid #ccc;
+        margin: 8px 0;
+    }
+
+    .error {
+        color: #ff0000;
+    }
+
+    .success {
+        color: #008000;
+    }
+

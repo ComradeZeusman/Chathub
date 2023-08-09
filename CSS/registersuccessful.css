@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("path/to/your/background-image.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+a {
+    display: block;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
+
+/* Additional styles to center the link */
+.center-link {
+    display: flex;
+    justify-content: center;
+}

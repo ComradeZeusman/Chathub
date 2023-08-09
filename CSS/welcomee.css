@@ -1,0 +1,124 @@
+/* CSS for the Education Chat Hub webpage */
+
+/* Reset default browser styles */
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a background color */
+  body {
+    background-image: url('pexels-pixabay-159711.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .image-slider {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  .slider-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Crop the image to fit */
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  .slider-image.active {
+    opacity: 1;
+  }
+  
+  .slider-caption {
+    position: absolute;
+    top: 460px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #777;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  @keyframes slideshow {
+    0% {
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    33.33% {
+      opacity: 1;
+    }
+    53.33% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  .slider-image:nth-child(1) {
+    animation: slideshow 15s infinite;
+  }
+  
+  .slider-image:nth-child(2) {
+    animation: slideshow 15s infinite 5s;
+  }
+  
+  .slider-image:nth-child(3) {
+    animation: slideshow 15s infinite 10s;
+  }
+  
+  p {
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+  
+  /* Media Query for responsive design */
+  @media screen and (max-width: 600px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .image-slider {
+      height: 200px;
+    }
+  }
+  

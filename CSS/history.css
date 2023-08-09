@@ -1,0 +1,139 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+p {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+/* Styling for the history section */
+.history-section {
+  border-top: 1px solid #ccc;
+  margin-top: 30px;
+  padding-top: 20px;
+}
+
+/* Styling for the articles section */
+.articles-section {
+  margin-top: 30px;
+}
+
+.articles-section h2 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
+  color: #333;
+}
+
+.articles-section p {
+  margin-bottom: 10px;
+  color: #777;
+}
+
+/* Styling for the comments section */
+.comments-section {
+  margin-top: 30px;
+}
+
+.comments-section h2 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
+  color: #333;
+}
+
+.comments-section p {
+  margin-bottom: 10px;
+  color: #777;
+}
+
+/* Styling for the news section */
+.news-section {
+  margin-top: 30px;
+}
+
+.news-section h2 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
+  color: #333;
+}
+
+.news-section p {
+  margin-bottom: 10px;
+  color: #777;
+}
+
+/* Styling for the no data message */
+.no-data-message {
+  font-style: italic;
+  color: #777;
+}
+
+/* Styling for the delete button */
+form {
+  display: inline-block;
+}
+
+input[type="submit"] {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  padding: 5px 15px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #d32f2f;
+}
+
+/* Styling for error message */
+.error-message {
+  color: #f44336;
+  font-weight: bold;
+  text-align: center;
+}

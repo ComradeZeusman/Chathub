@@ -1,0 +1,60 @@
+body {
+    background-image: url('study-group-african-people.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+  }
+ .info{
+  border: 2px solid white;
+  max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+
+ }
+  .container {
+    max-width: 400px;
+    margin: 150px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  input[type="text"],
+  input[type="password"],
+  input[type="email"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  button:hover {
+    opacity: 0.8;
+  }
+
+  .login-link {
+    text-align: center;
+    margin-top: 10px;
+  }
